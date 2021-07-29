@@ -5,4 +5,19 @@
     <string name="username_edittext">Username</string>
     <string name="save_details">Save</string>
     <string name="password_edittext">Password</string>
+
+<!--    String array containing tasks-->
+    <string-array name="my_tasks">
+        <item>Eat Food</item>
+        <item>Sleep</item>
+        <item>Study DBMS</item>
+        <item>Bath</item>
+        <item>Play Cricket</item>
+        <item>Code</item>
+        <item>Go out</item>
+        <item>Writing Novel</item>
+        <item>Sight Seeing</item>
+        <item>Bird Watching</item>
+    </string-array>
+
 </resources>
