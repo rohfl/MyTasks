@@ -75,7 +75,16 @@ public class FirstFragment extends Fragment {
 
         // setting the onClickListener to the MyTask button, used lambda for less clutter and
         // better readability
+        // User will be navigated to MyTaskFragment after clicking on this button
         myTaskButton.setOnClickListener(view -> {
+
+            // create a MyTaskFragment
+            Fragment fragment = new MyTaskFragment();
+
+            // replacing this fragment with MyTaskFragment and adding it to stack
+            getActivity().getSupportFragmentManager()
+                    .beginTransaction().replace(R.id.fragment_container,fragment)
+                    .addToBackStack(null).commit();
 
         });
 
