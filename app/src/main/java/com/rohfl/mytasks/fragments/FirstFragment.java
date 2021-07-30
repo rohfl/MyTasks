@@ -17,7 +17,11 @@ import com.google.android.material.textview.MaterialTextView;
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link FirstFragment#newInstance} factory method to
- * create an instance of this fragment.
+ * create an instance of this fragment with data passed from calling fragment.
+ * @author Rohit Jangid
+ * @author https://www.github.com/rohfl
+ * @version 1.0
+ * @since 1.0
  */
 public class FirstFragment extends Fragment {
 
@@ -87,7 +91,7 @@ public class FirstFragment extends Fragment {
                     .addToBackStack(null).commit();
 
         });
-
+        // return the created view
         return v ;
     }
 

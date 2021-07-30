@@ -16,6 +16,10 @@ import android.widget.Toast;
 
 /**
  * A simple {@link Fragment} subclass.
+ * @author Rohit Jangid
+ * @author https://www.github.com/rohfl
+ * @version 1.0
+ * @since 1.0
  */
 public class MyTaskFragment extends Fragment {
 

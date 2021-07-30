@@ -9,6 +9,14 @@ import android.os.Bundle;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.textfield.TextInputLayout;
 
+/**
+ * AppCompatActivity subclass which will be first activity when user opens the application.
+ * @author Rohit Jangid
+ * @author https://www.github.com/rohfl
+ * @version 1.0
+ * @since 1.0
+ */
+
 public class LoginActivity extends AppCompatActivity {
 
     private final String MY_PREF_NAME = "MyTaskPrefs";

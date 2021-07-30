@@ -10,8 +10,17 @@ import androidx.fragment.app.FragmentTransaction;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 
+/**
+ * AppCompatActivity subclass
+ * @author Rohit Jangid
+ * @author https://www.github.com/rohfl
+ * @version 1.0
+ * @since 1.0
+ */
+
 public class WelcomeActivity extends AppCompatActivity {
 
+    // final strings which will be used as keys
     private final String MY_PREF_NAME = "MyTaskPrefs";
     private final String USER_NAME = "username";
 
