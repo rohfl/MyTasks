@@ -5,8 +5,9 @@
     <string name="username_edittext">Username</string>
     <string name="save_details">Save</string>
     <string name="password_edittext">Password</string>
+    <string name="dummy_text">Dummy Text</string>
 
-<!--    String array containing tasks-->
+    <!--    String array containing tasks-->
     <string-array name="my_tasks">
         <item>Eat Food</item>
         <item>Sleep</item>
